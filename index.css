@@ -106,6 +106,10 @@ a:hover {
   width: 60%;
 }
 
+.landing__img {
+    margin-left: 60px;
+}
+
 .landing__title {
   margin: 0 40px 0 0;
 }
