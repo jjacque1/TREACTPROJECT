@@ -81,11 +81,12 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 60px 0;
+  margin: 80px 200px;
 }
 
 .landing__title {
   width: 40%;
+  margin: 0 auto;
 }
 
 .landing__img--wrapper {
@@ -165,7 +166,7 @@ input {
 .service {
   display: flex;
   width: calc(100% / 3);
-  
+
   
 }
 
