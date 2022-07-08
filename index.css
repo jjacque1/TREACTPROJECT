@@ -17,7 +17,7 @@
   margin: 200px 0 200px 0;
 }
 
-#get__started {
+#get__started--section {
     margin: 200px 0 200px 0;
   }
 
@@ -237,13 +237,50 @@ input {
   width: 50%;
 }
 
-.get__started--img {
-    width: 00px;
+.get__laptop--img {
+  width: 100%;
 }
 
+.get__started--row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 96px 0; */
+}
 
+.get__started--h5 {
+  font-size: 16px;
+}
 
+.get__started--list-item-1 {
+  display: flex;
+}
 
+.get__started--list-item {
+  margin: 32px 0 0 0;
+}
 
+.get__started--para {
+  margin: 12px 0 0 0;
+  font-size: 14px;
+  color: #718096;
+}
 
+.get__started--h6 {
+  font-size: 20px;
+  color: #243e63;
+}
 
+.get__started--h2 {
+  font-size: 36px;
+  margin: 16px 0 0 0;
+}
+
+.get__started--numbers {
+  margin-left: 24px;
+}
+
+.list__number {
+  font-size: 36px;
+  color: #cbd5e0;
+}
