@@ -6,20 +6,28 @@
 }
 
 #quality {
-    margin: 100px 0 100px 0;
+  margin: 200px 0 200px 0;
 }
 
 #services {
-    margin: 100px 0 100px 0;
+  margin: 200px 0 200px 0;
 }
 
 #landing {
-    margin: 100px 0 100px 0;
+  margin: 200px 0 200px 0;
 }
 
+#get__started {
+    margin: 200px 0 200px 0;
+  }
+
+#steps {
+    margin: 200px 0 200px 0;
+  }
+  
 
 .text__purple {
-  color: #7342d6;
+  color: #6415ff;
 }
 
 li {
@@ -59,7 +67,7 @@ nav {
   padding: 6px 16px;
   border: 2px solid transparent;
   border-radius: 16px;
-  background-color: #7342d6;
+  background-color: #6415ff;
   color: white;
 }
 
@@ -75,7 +83,7 @@ a:hover {
 
 .logo__T {
   border: 2px solid transparent;
-  background-color: #7342d6;
+  background-color: #6415ff;
   padding: 2px 16px;
   color: #fff;
   font-weight: bold;
@@ -107,7 +115,7 @@ a:hover {
 }
 
 .landing__img {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .landing__title {
@@ -162,7 +170,7 @@ input {
 }
 
 .feature {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .fontawesome {
@@ -170,7 +178,7 @@ input {
   border: 1px solid rgba(128, 128, 128, 0.418);
   padding: 12px;
   border-radius: 50%;
-  color: #7342d6;
+  color: #6415ff;
 }
 
 .services {
@@ -183,8 +191,6 @@ input {
 .service {
   display: flex;
   width: calc(100% / 3);
-
-  
 }
 
 .service__description {
@@ -194,39 +200,50 @@ input {
 }
 
 .screenshot {
-    height: 250px;
-    border: 1px solid grey;
-    margin: 16px;
+  height: 250px;
+  border: 1px solid grey;
+  margin: 16px;
 }
 
 .quality__row {
-    display: flex;
+  display: flex;
 }
 
 .quality {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .quality__para {
-    font-size: 20px;
-    font-weight: bold;
-    opacity: 0.4;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.4;
 }
 
 .quality__btn {
-    border: none;
-    padding: 8px 24px;
-    border-radius: 50px;
-    color: #fff;
-    background-color: #7342d6;
-    font-size: 15px;
-    font-weight: bold;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #6415ff;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .quality__description {
-    width: 50%;
+  width: 50%;
 }
 
 .quality__img {
-    width: 50%;
+  width: 50%;
 }
+
+.get__started--img {
+    width: 00px;
+}
+
+
+
+
+
+
+
