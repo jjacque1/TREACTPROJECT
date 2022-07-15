@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: inter, system-ui, sans-serif; 
+  font-family: system-ui, sans-serif; 
 }
+
+/* GENERIC */
 
 body {
   padding: 32px;
@@ -14,6 +16,12 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.text__purple {
+  color: #6415ff;
+}
+
+/* NAVIGATION */
 
 .logo__container {
   display: flex;
@@ -29,7 +37,7 @@ body {
   text-decoration: none;
 }
 
-.treact:hover {
+.logo__container:hover .treact {
   color: #6415ff;
 }
 
@@ -46,26 +54,27 @@ body {
   font-weight: 600;
   margin: 0 24px;
   padding-bottom: 4px;
+  transition: all 300ms ease;
 }
 
 .nav__anchor:hover {
   color: #6415ff;
-  text-decoration: underline;
+  border-bottom: 3px solid #6415ff;
 } 
 
 .primary:hover {
   color: #f7fafc;
   background-color: rgba(80, 17, 204);
-  text-decoration: none;
-}
+} 
 
 .primary {
-  color: #f7fafc;
+  color: #fff;
   background-color: #6415ff;
   font-size: 14px;
+  font-weight: 600;
   padding: 12px 32px;
   border-radius: 50px;
-  transition: all 300ms ease;
+  text-decoration: none;
 }
 
 ul {
@@ -80,4 +89,94 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* LANDING */
+
+.landing__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__container {
+  padding: 80px 0;
+}
+
+.left__landing--column {
+  width: 40%;
+}
+
+.left__landing--customers--logo {
+  width: 100%;
+}
+
+.right__landing--column {
+  width: 60%;
+}
+
+.right__landing--column--img {
+  width: 100%;
+}
+
+h1 {
+  color: #1a202c;
+  font-size: 48px;
+}
+
+.landing__para {
+  color: #243e63;
+  font-size: 18px;
+  margin: 32px 0;
+}
+
+.landing__input--wrapper {
+  max-width: 448px;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  line-height: 24px;
+}
+
+.landing__input {
+  width: 100%;
+  padding: 20px 192px 20px 32px;
+  border-radius: 50px;
+  font-weight: 500;
+  opacity: .5;
+}
+
+.landing__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 160px;
+  padding: 16px 0;
+  margin: 8px 8px 8px 0;
+  color: #f7fafc;
+  background-color: #6415ff;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.landing__customers--img--wrapper {
+  margin-top: 80px;
+}
+
+.landing__customers--img--description {
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.left__landing--customers--logo {
+  margin-top: 16px;
+  padding-right: 128px;
+  opacity: .5;
 }
