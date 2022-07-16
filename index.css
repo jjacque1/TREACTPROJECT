@@ -368,6 +368,7 @@ h1 {
   font-size: 16px;
   letter-spacing: 1px;
   color: #6415ff;
+  text-transform: uppercase;
 }
 
 .steps__h2 {
@@ -436,6 +437,7 @@ h1 {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .value__h2 {
@@ -507,3 +509,35 @@ i {
   border-radius: 50px;
 }
 
+/* PRICING */
+
+.price__top--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.price__h5 {
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.price__h2 {
+  color: #243e63;
+  font-size: 48px;
+  text-align: center;
+}
+
+.price__para {
+  color: #7c8ba1;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 16px;
+  width: 576px;
+} 
