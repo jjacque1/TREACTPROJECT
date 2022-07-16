@@ -1,8 +1,8 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, sans-serif; 
+  font-family: system-ui, sans-serif;
 }
 
 /* GENERIC */
@@ -23,6 +23,20 @@ body {
 
 .text__purple {
   color: #6415ff;
+}
+
+.h5 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #6415ff;
+  text-transform: uppercase;
+  width: 576px;
+}
+
+.h2 {
+  color: #243e63;
+  font-size: 48px;
+  margin-top: 16px;
 }
 
 /* NAVIGATION */
@@ -51,7 +65,7 @@ body {
   margin-right: 12px;
 }
 
-.nav__anchor{
+.nav__anchor {
   text-decoration: none;
   color: #243e63;
   font-size: 14px;
@@ -83,7 +97,7 @@ a {
 .primary:hover {
   color: #f7fafc;
   background-color: rgba(80, 17, 204);
-} 
+}
 
 .primary {
   color: #fff;
@@ -157,7 +171,7 @@ h1 {
   padding: 20px 192px 20px 32px;
   border-radius: 50px;
   font-weight: 500;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .landing__btn {
@@ -193,7 +207,7 @@ h1 {
 .left__landing--customers--logo {
   margin-top: 16px;
   padding-right: 128px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* FEATURES */
@@ -204,7 +218,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
-  opacity: .8;
+  opacity: 0.8;
   text-align: center;
 }
 
@@ -293,7 +307,7 @@ h1 {
   width: 100%;
   border: 1px solid #a0aec05f;
   border-radius: 5px;
-  box-shadow: 0 8px 16px 1px rgba(0, 0, 0, .5);
+  box-shadow: 0 8px 16px 1px rgba(0, 0, 0, 0.5);
 }
 
 .quality__h5 {
@@ -301,7 +315,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .quality__h2 {
@@ -328,4 +342,71 @@ h1 {
   border: none;
   padding: 12px 32px;
   border-radius: 50px;
+}
+
+/* STEPS */
+
+.steps__row {
+  display: flex;
+}
+
+.steps__right--column--img--wrapper {
+  width: 50%;
+}
+
+.steps__left--column--wrapper {
+  width: 50%;
+  margin-left: 64px;
+}
+
+.steps__img {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.steps__h5 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #6415ff;
+}
+
+.steps__h2 {
+  color: #243e63;
+  font-size: 48px;
+  margin-top: 16px;
+}
+
+.steps__list--items {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.steps__list--item {
+  display: flex;
+  margin-top: 32px;
+}
+
+.steps__descrption {
+  margin-left: 24px;
+}
+
+.list__para {
+  margin-top: 12px;
+  width: 320px;
+  color: #718096;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.list__title {
+  color: #243e63;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.list__number {
+  color: #cbd5e0;
+  font-size: 36px;
+  font-weight: 600px;
 }
