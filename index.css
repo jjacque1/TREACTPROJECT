@@ -292,6 +292,8 @@ h1 {
 .quality__img {
   width: 100%;
   border: 1px solid #a0aec05f;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 1px rgba(0, 0, 0, .5);
 }
 
 .quality__h5 {
