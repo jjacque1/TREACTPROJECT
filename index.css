@@ -22,7 +22,7 @@
 }
 
 .color__white {
-  color: #fff;
+  color: #242424;
 }
 
 .h5 {
@@ -132,7 +132,8 @@ nav {
 
 .btn__menu {
   font-size: 40px ;
-  background-color: #6415ff;
+  color: #1a202c;
+  background-color: transparent;
   border: none;
   text-align: center;
   display: none;
@@ -140,7 +141,7 @@ nav {
 
 .menu__backdrop {
   position: absolute;
-  background-color: #6415ff;
+  background-color: #fff;
   top: 0;
   left: 0;
   bottom: 0;
@@ -170,7 +171,7 @@ nav {
 
 .menu__link {
   text-decoration: none;
-  color: #fff;
+  color: #242424;
   font-size: 24px;
   font-weight: 500;
 }
@@ -261,9 +262,6 @@ h1 {
   border: none;
   font-size: 16px;
   font-weight: 600;
-}
-
-.landing__customers--img--wrapper {
 }
 
 .landing__customers--img--description {
@@ -618,6 +616,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .plan__personal {
@@ -1183,7 +1182,6 @@ li {
   /* FEATURES */
   .feature__h5 {
     text-align: center;
-    font-size: 12px;
   }
 
   .feature__h2 {
@@ -1199,6 +1197,28 @@ li {
 
   .service {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service__img--wrapper {
+    text-align: center;
+  }
+
+  .service__text--container {
+    margin: 16px 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service__title {
+    text-align: center;
+  }
+
+  .service__description {
+    text-align: center;
   }
 
 /* QUALITY */
@@ -1233,8 +1253,134 @@ li {
 
 .quality__img {
   transform: scale(1.3);
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
+
+/* STEPS */
+
+.steps__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps__h5 {
+  text-align: center;
+  margin-top: 46px;
+}
+
+.steps__h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.steps__left--column--wrapper {
+  margin: 0 auto;
+}
+
+.steps__list--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps__descrption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list__para {
+  text-align: center;
+}
+
+/* VALUES */
+
+.value__row {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.value__img--svg {
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.value__left--column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.value__h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.value__h5 {
+  text-align: center;
+}
+
+.value__para {
+  font-size: 12px;
+  width: 448px;
+  text-align: center;
+}
+
+.value__two--column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 64px;
+}
+
+.value__two--column--left--side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.value__bottom--para {
+  text-align: center;
+}
+
+/* PRICING */
+
+.price__h2 {
+  font-size: 36px;
+  padding: 0 16px;
+}
+
+.price__para {
+  font-size: 12px;
+  text-align: center;
+  width: 519px;
+  padding: 0 16px;
+}
+
+.name {
+  text-align: center;
+}
+
+.price {
+  font-size: 36px;
+}
+
+.bottom__btn {
+  width: 100%;
+}
+
+.plan__business, .plan__personal, .plan__enterprise {
+  width: 384px;
+  padding: 8px 32px;
+}
+
 
 /* BURGER MENU */
   .nav__lists {
