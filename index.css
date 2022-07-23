@@ -21,6 +21,10 @@
   color: #6415ff;
 }
 
+.color__white {
+  color: #fff;
+}
+
 .h5 {
   font-size: 16px;
   letter-spacing: 1px;
@@ -124,16 +128,80 @@ nav {
   padding: 32px;
 }
 
+/* BURGER MENU */
+
+.btn__menu {
+  font-size: 40px ;
+  background-color: #6415ff;
+  border: none;
+  text-align: center;
+  display: none;
+}
+
+.menu__backdrop {
+  position: absolute;
+  background-color: #6415ff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu--open .menu__backdrop {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu--open {
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
+.menu__list {
+  padding: 18px 0;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.menu__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.btn__menu--close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  padding: 8px;
+}
+
 /* LANDING */
 
 .landing__row {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .left__landing--column {
   width: 40%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .left__landing--customers--logo {
@@ -146,6 +214,7 @@ nav {
 
 .right__landing--column--img {
   width: 100%;
+  margin: 0 auto;
 }
 
 h1 {
@@ -172,7 +241,7 @@ h1 {
   padding: 20px 192px 20px 32px;
   border-radius: 50px;
   font-weight: 500;
-  opacity: 0.5;
+  opacity: .8;
 }
 
 .landing__btn {
@@ -195,10 +264,10 @@ h1 {
 }
 
 .landing__customers--img--wrapper {
-  margin-top: 80px;
 }
 
 .landing__customers--img--description {
+  margin-top: 80px;
   color: #a0aec0;
   font-size: 12px;
   font-weight: 500;
@@ -542,7 +611,7 @@ h1 {
   font-weight: 500;
   margin-top: 16px;
   width: 576px;
-} 
+}
 
 .plans__wrapper {
   width: 100%;
@@ -851,7 +920,7 @@ i {
   100% {
     transform: scale(1);
   }
-} 
+}
 
 /* BEFORE FOOTER */
 
@@ -872,7 +941,7 @@ i {
   height: 90px;
   margin: 0 32px;
 }
- 
+
 .before__footer--h5 {
   font-size: 30px;
   width: 480px;
@@ -1052,3 +1121,139 @@ li {
 .social__link:hover {
   background-color: #cbd5e0;
 }
+
+/* RESPONSIVE */
+
+/* LARGE SMARTPHONES, TABLETS */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    padding: 80px 0;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .landing__para {
+    text-align: center;
+  }
+
+  .landing__btn {
+    position: relative;
+    width: 100%;
+  }
+
+  .landing__input {
+    opacity: .6;
+    margin-bottom: 20px;
+  }
+
+  .landing__customers--img--wrapper {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .right__landing--column--img {
+    width: 100%;
+    transform: scale(1.5);
+    padding-left: 50px;
+  }
+
+  .left__landing--customers--logo {
+   padding: 0;
+   transform: scale(1.5);
+  }
+
+  .landing__customers--img--description {
+    margin-top: 24px;
+  }
+
+  .right__landing--column--img {
+    width: 250px;
+    text-align: center;
+  }
+
+  /* FEATURES */
+  .feature__h5 {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .feature__h2 {
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .feature__para {
+    text-align: center;
+    font-size: 12px;
+    width: 519px;
+  }
+
+  .service {
+    width: 50%;
+  }
+
+/* QUALITY */
+
+.quality__row {
+  flex-direction: column-reverse;
+}
+
+.left__quality--column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.quality__h5 {
+  font-size: 12px;
+  text-align: center;
+  
+}
+
+.quality__h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.quality__para {
+  font-size: 12px;
+  text-align: center;
+  width: 448px;
+}
+
+.quality__img {
+  transform: scale(1.3);
+  margin-bottom: 24px;
+}
+
+/* BURGER MENU */
+  .nav__lists {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
+}
+
+/*  SMALL PHONES */
+@media (max-width: 550px) {
+  .nav__lists {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
+
+}     

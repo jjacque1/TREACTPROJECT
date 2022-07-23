@@ -10,9 +10,10 @@
       src="https://kit.fontawesome.com/a84b1620d5.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </head>
   <body>
-    <section>
+    <section id="nav">
       <div class="row">
         <nav>
           <div class="logo__container">
@@ -46,7 +47,7 @@
               </li>
               <li class="nav__list">
                 <a
-                  class="hover__effect nav__anchor nav__anchor--hover-effect"
+                  class="nav__anchor hover__effect nav__anchor--hover-effect"
                   href="#"
                   >Contact Us</a
                 >
@@ -60,11 +61,40 @@
               </li>
               <li class="nav__list"><a class="primary" href="#">Sign Up</a></li>
             </ul>
+          
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fa-solid fa-bars color__white"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fa-solid fa-xmark color__white"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a href="#landing" class="menu__link hover__effect nav__anchor--hover-effect" onclick="closeMenu()">About</a>
+              </li>
+              <li class="menu__list">
+                <a href="#testimonial" class="menu__link hover__effect nav__anchor--hover-effect" onclick="closeMenu()">Blog</a>
+              </li>
+              <li class="menu__list">
+                <a href="#price" class="menu__link hover__effect nav__anchor--hover-effect" onclick="closeMenu()">Pricing</a>
+              </li>
+              <li class="menu__list">
+                <a href="#before__footer" class="menu__link hover__effect nav__anchor--hover-effect" onclick="closeMenu()">Contact Us</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link hover__effect nav__anchor--hover-effect" onclick="closeMenu()">Login</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link hover__effect nav__anchor--hover-effect" onclick="closeMenu()">Sign Up</a>
+              </li>
+            </ul>
           </div>
+        </div>
         </nav>
       </div>
     </section>
-    <section>
+    <section id="landing">
       <div class="container">
         <div class="landing__row row">
           <div class="left__landing--column">
@@ -107,7 +137,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="feature">
       <div class="container">
         <div class="row">
           <h5 class="feature__h5">
@@ -224,7 +254,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="quality">
       <div class="container">
         <div class="quality__row row">
           <div class="left__quality--column">
@@ -257,7 +287,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="steps">
       <div class="container">
         <div class="steps__row row">
           <div class="steps__right--column--img--wrapper">
@@ -306,7 +336,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="value">
       <div class="container">
         <div class="value__row row">
           <div class="value__left--column">
@@ -363,7 +393,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="price">
       <div class="container">
         <div class="row">
           <div class="price__top--container">
@@ -435,7 +465,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="testimonial">
       <div class="container">
         <div class="testimonial__row row">
           <div class="testimonial__left--column--svg">
@@ -502,7 +532,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="before__footer">
       <div class="container">
         <div class="before__footer--row row">
           <div class="before__footer--ctn">
@@ -517,7 +547,7 @@
         </div>
       </div>
     </section>
-    <footer>
+    <footer id="footer">
       <div class="footer__container container">
         <div class="row">
           <div class="footer__links">
@@ -630,4 +660,4 @@
       </div>
     </footer>
   </body>
-</html>
+</htm
