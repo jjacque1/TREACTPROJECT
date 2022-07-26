@@ -1216,7 +1216,12 @@ li {
 
    /* QUALITY */
 
-
+   .quality__row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+   }
 
 /* BURGER MENU */
   .nav__lists {
