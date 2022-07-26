@@ -1223,6 +1223,114 @@ li {
     justify-content: space-between;
    }
 
+   .left__quality--column {
+    width: 448px;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   .right__quality--column {
+    width: 448px;
+    height: 314px;
+    line-height: 24px;
+    text-align: center;
+   }
+
+   .quality__h5 {
+    text-align: center;
+   }
+
+   .quality__h2 {
+    width: 448px;
+    height: 90px;
+    font-size: 36px;
+    margin-top: 16px;
+    text-align: center;
+   }
+
+   .quality__para {
+    width: 448px;
+    height: 91px;
+    text-align: center;
+   }
+   
+   .quality__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   /* STEPS */
+   .steps__row {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .steps__left--column--wrapper {
+    margin: 0 auto;
+   }
+
+   .steps__right--column--img--wrapper {
+    margin: 0 auto;
+    width: 448px;
+   }
+   
+   .steps__list--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .list__para {
+    text-align: center;
+    width: 320px;
+    height: 52px;
+   }
+
+   .list__title {
+    text-align: center;
+   }
+
+   .steps__h2 {
+    font-size: 36px;
+    width: 448px;
+   }
+
+   .steps__h5 {
+    text-align: center;
+    margin-top: 32px;
+   }
+
+   .steps__img {
+    padding: 0;
+    width: 448px;
+   }
+
+   /* VALUES */
+
+   .value__row {
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   .value__right--column {
+    margin: 0 auto;
+    width: 448px;
+   }
+
+   .value__right--column {
+    display: flex;
+  
+   }
+
+   .value__img--svg {
+    padding: 0;
+   }
+ 
 /* BURGER MENU */
   .nav__lists {
     display: none;
