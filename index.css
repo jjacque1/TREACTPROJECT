@@ -1330,7 +1330,35 @@ li {
    .value__img--svg {
     padding: 0;
    }
- 
+
+  .value__h5 {
+    text-align: center;
+    width: 448px;
+    height: 24px;
+    font-size: 16px;
+  }
+
+  .value__h2 {
+    font-size: 30px;
+    width: 448px;
+    height: 75px;
+    text-align: center;
+  }
+
+  .value__para {
+    width: 448px;
+    font-size: 14px;
+    text-align: center;
+    height: 91px;
+  }
+
+  .value__two--column {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
 /* BURGER MENU */
   .nav__lists {
     display: none;
